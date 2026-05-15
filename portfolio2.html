@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shweta Hangal | Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #247a24, #162133);
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    position: sticky;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+}
+
+nav h2 {
+    color: #38bdf8;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero span {
+    background: linear-gradient(45deg, #38bdf8, #6366f1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background: linear-gradient(45deg, #38bdf8, #6366f1);
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    transform: scale(1.1);
+}
+
+/* Sections */
+.section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+/* Cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    margin: 20px;
+    padding: 25px;
+    width: 260px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.05);
+    background: rgba(255,255,255,0.1);
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background: #38bdf8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    opacity: 0.6;
+}
+
+/* Animation */
+.fade {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>MyPortfolio</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero fade">
+    <h1>Hello, I'm <span>Shweta Hangal</span></h1>
+    <p>Quick Learner | Problem Solver</p>
+
+</section>
+
+<div>
+    <img src="c:\Users\ADMIN\Downloads\WhatsApp Image 2026-05-15 at 6.54.32 PM.jpeg">
+
+</div>
+
+
+<section id="about" class="section fade">
+    <h2>About Me</h2>
+    <p>I am a first year Chemical Engineering student.</p>
+    <p>I am a enthusiast learner and love to solve problems.</p>
+    <p>My goal is to build a successful career in chemical industy in future.</p>
+</section>
+
+
+<section id="projects" class="section fade">
+    <h2>Projects</h2>
+    <div class="card-container">
+
+        <div class="card">
+            <h3>AI Expense Tracker</h3>
+            <p>Smart tracking with AI insights.</p>
+        </div>
+
+        <div class="card">
+            <h3>Water Filter System</h3>
+            <p>Innovative DIY filtration solution.</p>
+        </div>
+
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>Modern responsive design.</p>
+        </div>
+        <div class="card">
+            <h3>Mobile Charger Circuit</h3>
+            <p>AC to DC conversion</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills" class="section fade">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>Japanese learner</span>
+        <span>C programming</span>
+        <span>Python</span>
+        <span></span>
+    </div>
+</section>
+<section id="achievements" class="section fade">
+    <h2>Achievements</h2>
+    <p> 1. NASSCOM Certificate</p>
+    <p> 2. Five Anthropic Certificates</p>
+    <p> 3. CISCO Python Essentials 1 </p>
+    <p> 4. CISCO Python Essentials 2 </p>
+</section>
+
+
+<section id="contact" class="section fade">
+    <p>Email: shwetahangal@gmail.com.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/shweta-hangal-a7a86a382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></p>
+
+    <p>Contact No: 8626031095</p>
+</section>
+
+<footer>
+    <p>© 2026 Shweta Hangal</p>
+</footer>
+
+<script>
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+}
+
+/* Scroll Animation */
+const elements = document.querySelectorAll('.fade');
+
+window.addEventListener('scroll', () => {
+    elements.forEach(el => {
+        const position = el.getBoundingClientRect().top;
+        if(position < window.innerHeight - 100){
+            el.classList.add('show');
+        }
+    });
+});
+</script>
+
+</body>
+</html>
